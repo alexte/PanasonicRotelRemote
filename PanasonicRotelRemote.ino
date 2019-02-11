@@ -83,7 +83,7 @@ void loop() {
         else if (code==PanasonicGREEN) { Serial.print("opt1!"); }
         else if (code==PanasonicYELLOW) { Serial.print("opt2!"); }
         else if (code==PanasonicBLUE) { Serial.print("coax1!"); }
-	    else amp_mode=false;
+	      else amp_mode_off();
       }
       else if (code==PanasonicGREEN) // press green twice for mode switch
       { 
